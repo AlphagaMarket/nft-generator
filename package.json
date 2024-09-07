@@ -1,0 +1,33 @@
+{
+  "name": "alphaga_nft_creator",
+  "version": "1.0.0",
+  "description": "Tool used to create multiple different instances of artworks based on provided layers.",
+  "main": "index.js",
+  "bin": "index.js",
+  "private": true,
+  "pkg": {
+    "assets": [
+      "layers/**/*",
+      "node_modules/**/*",
+      "src/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "node index.js",
+    "generate": "node index.js",
+    "rarity": "node utils/rarity.js",
+    "preview": "node utils/preview.js",
+    "update_info": "node utils/update_info.js",
+    "preview_gif": "node utils/preview_gif.js"
+  },
+  "author": "Alphaga",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "gif-encoder-2": "^1.0.5",
+    "sha1": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
