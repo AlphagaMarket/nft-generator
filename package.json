@@ -25,7 +25,8 @@
   "dependencies": {
     "canvas": "^2.11.2",
     "gif-encoder-2": "^1.0.5",
-    "sha1": "^1.1.1"
+    "sha1": "^1.1.1",
+    "arweave": "^1.15.1"
   },
   "engines": {
     "node": ">=14.0.0"
